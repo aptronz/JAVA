@@ -1,0 +1,8 @@
+package ap;
+public class First {
+        public static void main(String[] args) {
+            int a = 1, b = 3, c = 4;
+            int sum = a + b + c;
+            System.out.print(sum);
+        }
+}
