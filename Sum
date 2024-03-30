@@ -1,0 +1,14 @@
+package ap;
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
+import java.sql.SQLOutput;
+import java.util.*;
+public class Aditya {
+    public static void main(String[] args){
+        System.out.println("Enter the numbers: ");
+        Scanner sc=new Scanner (System.in);
+        int a=sc.nextInt(),b= sc.nextInt();
+        int sum=a+b;
+        System.out.println("The sum is: "+sum);
+    }
+}
